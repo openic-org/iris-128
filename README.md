@@ -1,2 +1,2 @@
-# hs-128
-Design files for headstages HS-128B and HS-128S
+# Iris-128
+Data and design files for Iris headstages
