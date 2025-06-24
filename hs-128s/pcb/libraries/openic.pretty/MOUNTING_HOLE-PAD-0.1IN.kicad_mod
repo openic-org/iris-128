@@ -1,0 +1,90 @@
+(footprint "MOUNTING_HOLE-PAD-0.1IN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5b854e91-8fb4-4a77-a54e-8e4b71338230")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MOUNTING_HOLE-PAD-0.1IN"
+		(at 0 2.778 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "64d07c5b-e8eb-4a86-90c3-520c6c93c6fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "535361dd-f3ad-46ac-9f6e-ef67cee68c5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55d06a02-e0d8-48ec-a351-cbba332fda41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54b6d877-6168-4e9c-a812-f4f73d2468ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.278 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2ec3a497-59ff-4379-a7fe-a93cffb2c9a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5814 3.5814)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "210c3d0b-17ba-4356-8c23-c6654d78db1e")
+	)
+)
