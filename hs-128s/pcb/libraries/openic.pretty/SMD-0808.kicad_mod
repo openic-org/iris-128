@@ -1,0 +1,151 @@
+(footprint "SMD-0808"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5142c832-4699-4672-94ec-e0ad2b658810")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMD-0808"
+		(at -0.05 2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "778c372d-9cea-4705-8278-7fb6417c2de4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SMD-0808"
+		(at -0.05 1.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69d1b83b-220c-4dda-bae5-0255f0bc323d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c54b9958-b7dc-43b5-839c-94c801d8cafe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f7a00a1-3ac5-4712-a1df-397d6efcfd2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.1 -1.05)
+		(end 1.1 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "568cb0f9-14bf-4d0a-9f46-1a1a913d4760")
+	)
+	(fp_circle
+		(center 1.25 -1.25)
+		(end 1.3 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "785d1e27-5abb-484d-a9a6-042f09e1c2d3")
+	)
+	(fp_rect
+		(start -1.2 -1.15)
+		(end 1.2 1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "25949f10-eafd-45a8-920e-6064c4b2cf3e")
+	)
+	(fp_rect
+		(start -1 -0.95)
+		(end 1 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c43fc737-80ac-4c0f-98cc-fa2d1b6ed163")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "688737c7-328c-47b3-a159-65c779241b7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 0)
+		(size 0.6 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1f7a50d1-b337-4bfd-8c3f-c06bd4986e41")
+	)
+	(pad "2" smd rect
+		(at 0.675 0)
+		(size 0.6 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0a30e433-0a63-4b3d-9a7c-6e4407fe0a4f")
+	)
+	(model "${OPENIC_DIR}/3d-models/cube_1.step"
+		(offset
+			(xyz -0.95 -1 0)
+		)
+		(scale
+			(xyz 1.9 2 0.6)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

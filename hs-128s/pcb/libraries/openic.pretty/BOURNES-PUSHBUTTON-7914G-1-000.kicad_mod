@@ -1,0 +1,155 @@
+(footprint "BOURNES-PUSHBUTTON-7914G-1-000"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ed76ae37-1c1c-43db-b2db-7f6e6c60f104")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BOURNES-PUSHBUTTON-7914G-1-000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c84b162-2398-46ea-a8d2-c843a8ca498b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbe95c8a-9f01-4e87-adb5-6342c4f9da52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c18e1aa1-1da4-4f88-9f04-1f0315285e40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "BOURNES-PUSHBUTTON-7914G-1-000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93ff5056-bf24-432e-804c-3a3e182d7d45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e3c36b47-b50b-449a-bd6b-27f75e678de6")
+	)
+	(fp_circle
+		(center -3.5 -2.5)
+		(end -3.2 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ba60c50f-17f5-4583-8ca8-8c74652fcdf2")
+	)
+	(fp_rect
+		(start -3 -3.5)
+		(end 3 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3fae63b5-252e-4bd8-963c-470ad66762ae")
+	)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5e7b3118-91bc-49de-a866-aaaa8261cc93")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ad38706-771f-41b4-bebf-7fefb8a8d429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1A" smd rect
+		(at -1.27 -2.7432)
+		(size 1.27 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0d7e2e36-b0f5-4f44-81eb-c2fdb50df9aa")
+	)
+	(pad "1B" smd rect
+		(at -1.27 2.7432)
+		(size 1.27 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3d2ac8e0-3e89-4767-9e83-eb06fa4290e5")
+	)
+	(pad "2A" smd rect
+		(at 1.27 -2.7432)
+		(size 1.27 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4a83b7a5-d453-4741-aad2-d563b33fd0fe")
+	)
+	(pad "2B" smd rect
+		(at 1.27 2.7432)
+		(size 1.27 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "65d0a992-36e2-4257-a21f-1da85775b59c")
+	)
+)
